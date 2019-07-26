@@ -60,6 +60,9 @@ footer p {
     border-radius: 10px;
     border: 1px solid #EBEBEB;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container:hover {
@@ -67,19 +70,12 @@ footer p {
     color: white;
 }
 
-.content {
-    width: 140px;
-    margin: 0 auto;
-    position: relative;
-    top: 74px;
-}
-
 .clearfix {
     clear: both;
 }
 
 .tab-content {
-    font-size: .8em;
+    font-size: .75em;
 }
 
 .dot1 {

@@ -111,6 +111,7 @@ define ('SITE_KEY', '');
                         <a class="list-group-item list-group-item-action" id="list-market-list" data-toggle="list" href="#list-market" role="tab" aria-controls="market">Market Places</a>
                         <a class="list-group-item list-group-item-action" id="list-social-list" data-toggle="list" href="#list-social" role="tab" aria-controls="misc">Social</a>
                         <a class="list-group-item list-group-item-action" id="list-misc-list" data-toggle="list" href="#list-misc" role="tab" aria-controls="misc">Misc.</a>
+                        <a class="list-group-item list-group-item-action" id="list-learning-list" data-toggle="list" href="#list-learning" role="tab" aria-controls="learning">Learning</a>
                     </div>
                 </div>
 
@@ -122,9 +123,10 @@ define ('SITE_KEY', '');
                                 <li>Android Studio</li>
                                 <li>Brackets</li>
                                 <li>Git Bash</li>
+                                <li>GitHub/Lab</li>
                                 <li>Notepad(++)</li>
                                 <li>phpMyAdmin</li>
-                                <li>PHP Storm</li>
+                                <li>PHP Storm (JetBrains)</li>
                                 <li>Wamp</li>
                                 <li>Wordpress</li>
                             </ul>
@@ -146,6 +148,7 @@ define ('SITE_KEY', '');
                             <ul>
                                 <li>Google Analytics</li>
                                 <li>Google Maps</li>
+                                <li>Google Fonts</li>
                                 <li>Session Cam</li>
                             </ul>
                         </div>
@@ -179,6 +182,14 @@ define ('SITE_KEY', '');
                                 <li>Teamwork</li>
                             </ul>
                         </div>
+                        <div class="tab-pane fade" id="list-learning" role="tabpanel" aria-labelledby="list-learning-list">
+                            <ul>
+                                <li>Udemy</li>
+                                <li>Codecademy</li>
+                                <li>Stack Overflow</li>
+                                <li>Web Developer</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -193,9 +204,7 @@ define ('SITE_KEY', '');
 
             <a href="graphics/screenshots/hamleysexplore.jpeg" title="Web-sites examples" data-fancybox="cl-group" data-thumb="graphics/thumbnails/thumbnail-hamleysexplore.jpg">
                 <div class="container">
-                    <div class="content">
-                        <h3>Web-sites</h3>
-                    </div>
+                    <h3>Web-sites</h3>
                 </div>
             </a>
 
@@ -217,9 +226,7 @@ define ('SITE_KEY', '');
 
             <a href="graphics/screenshots/san-lorenzo-template.jpeg" title="Template examples" data-fancybox="cl-group2" data-thumb="graphics/thumbnails/thumbnail-san-lorenzo-template.jpg">
                 <div class="container">
-                    <div class="content">
-                        <h3>Templates</h3>
-                    </div>
+                    <h3>Templates</h3>
                 </div>
             </a>
 
@@ -231,9 +238,7 @@ define ('SITE_KEY', '');
 
             <a href="graphics/screenshots/newsletter1.jpeg" title="Misc. examples" data-fancybox="cl-group3" data-thumb="graphics/thumbnails/thumbnail-newsletter1.jpg">
                 <div class="container">
-                    <div class="content">
-                        <h3>Misc.</h3>
-                    </div>
+                    <h3>Misc.</h3>
                 </div>
             </a>
 
@@ -308,6 +313,7 @@ define ('SITE_KEY', '');
         <footer>
             <p>Check out my <span class="linked-in first-in">Linked</span><span class="linked-in second-in">in</span> profile @ <a href="http://uk.linkedin.com/in/ghatzi" title="View my Linkedin profile" target="_blank">uk.linkedin.com/in/ghatzi</a></p>
             <p>View me on <a href="https://www.instagram.com/ghatzijiujitsu/" title="View me on Instagram" target="_blank">Instagram</a></p>
+            <p>Source code available on <a href="https://github.com/Ghatzi/george-hatzi.co.uk" title="Source code available on GitHub" target="_blank">GitHub</a></p>
             <p>&copy;george-hatzi.co.uk - <?php echo date("Y") ?> - All rights reserved</p>
         </footer>
 
