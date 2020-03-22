@@ -17,15 +17,6 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="styles/master.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles/jquery-eu-cookie-law-popup.css" />
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js" defer></script>
-    <![endif]-->
-    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js" defer></script>
-    <script type="text/javascript" src="scripts/jquery.validate.min.js" defer></script>
-    <script type="text/javascript" src="scripts/jquery-eu-cookie-law-popup.js" defer></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141915782-1"></script>
     <script>
@@ -341,6 +332,16 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
         </footer>
 
     </div>
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery-eu-cookie-law-popup.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
 
     <script>
         $('[data-fancybox="cl-group"]').fancybox({
