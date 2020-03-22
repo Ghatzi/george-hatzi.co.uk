@@ -1,15 +1,15 @@
 <?php
-define ('SITE_KEY', '');
+define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="msvalidate.01" content="21B0F9E924F67DB9499380A3B35777F6" />
-    <meta name="keywords" content="george hatzi, london, front end developer, web developer, html, xhtml, html5, css, css3, jquery, javascript, php, photoshop, illustrator, flash, bootstrap, android studio, mobile apps, wordpress, web design, responsive" />
-    <meta name="description" content="Front end web developer from London, UK" />
+    <meta name="keywords" content="george hatzi, london, front-end developer, web developer, html, xml, html5, css, css3, jquery, javascript, php, bootstrap, wordpress, web design, responsive design" />
+    <meta name="description" content="george hatzi is a front-end web developer from London. He develops responsive sites using clean and efficient code" />
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover'>
-    <title>George Hatzi|Front End Web Developer</title>
+    <title>George Hatzi | Front-End Web Developer</title>
     <link rel="apple-touch-icon" sizes="180x180" href="graphics/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="graphics/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="graphics/favicon-16x16.png">
@@ -17,6 +17,14 @@ define ('SITE_KEY', '');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="styles/master.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles/jquery-eu-cookie-law-popup.css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js" defer></script>
+    <![endif]-->
+    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js" defer></script>
+    <script type="text/javascript" src="scripts/jquery.validate.min.js" defer></script>
+    <script type="text/javascript" src="scripts/jquery-eu-cookie-law-popup.js" defer></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
     <script src="https://www.google.com/recaptcha/api.js?render=<?php echo SITE_KEY; ?>"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141915782-1"></script>
@@ -25,7 +33,7 @@ define ('SITE_KEY', '');
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '');
+      gtag('config', 'UA-141915782-1');
     </script>
 </head>
 <body class="eupopup eupopup-top">
@@ -34,25 +42,36 @@ define ('SITE_KEY', '');
 
         <header>
 
-            <nav class="navbar navbar-expand-lg navbar-light nav-position">
-                <a class="navbar-brand" href="#"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <div class="navbar-nav mr-auto">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
                         <a class="nav-link active" title="Intro" href="#sectionone">Intro</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" title="Tools" href="#sectiontwo">Tools</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" title="Work examples" href="#sectionthree">Work examples</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" title="Get in touch" href="#sectionfour">Get in touch</a>
-                    </div>
+                    </li>
+                </ul>
                 </div>
             </nav>
+        
             <div class="clearfix"></div>
 
-            <h2>$( "#<span>Front End Developer</span>" ).click(function() {<br/><span style="margin-left: 25px;">alert</span> ( "Hello, I'm <span>George Hatzi</span>"
-            );<br>
-            });</h2>
+            <div id="intro">
+                <p>$( "#<span>frontEndDeveloper</span>" ).click(function() {</p>
+                <p class="indent-text"><span>alert</span> ( "Hello, I'm <span>George Hatzi</span>" );</p>
+                <p>});</p>
+            </div>
+
         </header>
 
         <span class="dot1"></span>
@@ -70,26 +89,26 @@ define ('SITE_KEY', '');
                 <img src="graphics/avatar.png" />
             </div>
 
-            <p class="image-cropper-text"><i>"George Hatzi is a Front end developer from London. He is currently employed by Hamleys Of London Ltd (Hamleys Toy Shop) to support their e-commerce platform. He develops new features for desktop and mobile using clean &amp; efficient code"</i></p><div class="clearfix"></div>
+            <p class="image-cropper-text"><i>"George Hatzi is a front-end developer from London. He is currently employed by Hamleys Of London Ltd (Hamleys Toy Shop) to support their e-commerce platform. He develops responsive sites using clean and efficient code"</i></p><div class="clearfix"></div>
 
             <p><i>He codes in:</i></p>
             <div class="skills-background">
                 <ul>
-                    <li>PHP</li>
-                    <li>CSS</li>
                     <li>HTML</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>HTML5</li>
+                    <li>XML</li>
+                    <li>CSS3</li>
+                    <li>XSLT</li>
                     <li>JavaScript</li>
                     <li>JSON</li>
-                    <li>XML</li>
-                    <li>XSLT</li>
+                    <li>jQuery</li>
                     <li>Ajax</li>
-                    <li>mySQL</li>
-                    <li>CSS3 Responsive</li>
-                    <li>Symfony Framework</li>
+                    <li>Bootstrap</li>
                     <li>WordPress</li>
+                    <li>HTML5</li>
+                    <li>mySQL</li>
+                    <li>Emmet</li>
+                    <li>Symfony Framework</li>
+                    <li>PHP</li>
                 </ul>
             </div>
             <a href="#sectiontwo"><span class="arrows down"></span></a>
@@ -104,14 +123,14 @@ define ('SITE_KEY', '');
             <div class="row">
                 <div class="col-4">
                     <div class="list-group" id="list-tab" role="tablist" style="min-width: 125px;">
-                        <a class="list-group-item list-group-item-action active" id="list-developing-list" data-toggle="list" href="#list-developing" role="tab" aria-controls="developing">Developing</a>
-                        <a class="list-group-item list-group-item-action" id="list-image-editing-list" data-toggle="list" href="#list-image-editing" role="tab" aria-controls="editing">Image Editing</a>
+                        <a class="list-group-item list-group-item-action active" id="list-developing-list" data-toggle="list" href="#list-developing" role="tab" aria-controls="developing">Developing</a>                       
+                        <a class="list-group-item list-group-item-action" id="list-api-list" data-toggle="list" href="#list-api" role="tab" aria-controls="api">API's</a>         
+                        <a class="list-group-item list-group-item-action" id="list-social-list" data-toggle="list" href="#list-social" role="tab" aria-controls="misc">Social API's</a>
                         <a class="list-group-item list-group-item-action" id="list-marketing-list" data-toggle="list" href="#list-marketing" role="tab" aria-controls="marketing">Email-Marketing</a>
-                        <a class="list-group-item list-group-item-action" id="list-api-list" data-toggle="list" href="#list-api" role="tab" aria-controls="api">API's</a>
                         <a class="list-group-item list-group-item-action" id="list-market-list" data-toggle="list" href="#list-market" role="tab" aria-controls="market">Market Places</a>
-                        <a class="list-group-item list-group-item-action" id="list-social-list" data-toggle="list" href="#list-social" role="tab" aria-controls="misc">Social</a>
-                        <a class="list-group-item list-group-item-action" id="list-misc-list" data-toggle="list" href="#list-misc" role="tab" aria-controls="misc">Misc.</a>
+                        <a class="list-group-item list-group-item-action" id="list-image-editing-list" data-toggle="list" href="#list-image-editing" role="tab" aria-controls="editing">Image Editing</a>
                         <a class="list-group-item list-group-item-action" id="list-learning-list" data-toggle="list" href="#list-learning" role="tab" aria-controls="learning">Learning</a>
+                        <a class="list-group-item list-group-item-action" id="list-misc-list" data-toggle="list" href="#list-misc" role="tab" aria-controls="misc">Misc.</a>
                     </div>
                 </div>
 
@@ -122,13 +141,15 @@ define ('SITE_KEY', '');
                                 <li>Adobe Dreamweaver</li>
                                 <li>Android Studio</li>
                                 <li>Brackets</li>
-                                <li>Git Bash</li>
-                                <li>GitHub/Lab</li>
-                                <li>Notepad(++)</li>
+                                <li>GitHub</li>
+                                <li>Git Bash</li>                  
+                                <li>Notepad(++)</li>              
                                 <li>phpMyAdmin</li>
-                                <li>PHP Storm (JetBrains)</li>
-                                <li>Wamp</li>
+                                <li>PHP Storm</li>
+                                <li>Visual Studio Code</li>
+                                <li>Wamp</li>   
                                 <li>Wordpress</li>
+                                                     
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="list-image-editing" role="tabpanel" aria-labelledby="list-image-editing-list">
@@ -147,8 +168,9 @@ define ('SITE_KEY', '');
                         <div class="tab-pane fade" id="list-api" role="tabpanel" aria-labelledby="list-api-list">
                             <ul>
                                 <li>Google Analytics</li>
-                                <li>Google Maps</li>
+                                <li>Google Captcha</li>
                                 <li>Google Fonts</li>
+                                <li>Google Maps</li>
                                 <li>Session Cam</li>
                             </ul>
                         </div>
@@ -169,24 +191,25 @@ define ('SITE_KEY', '');
                         </div>
                         <div class="tab-pane fade" id="list-misc" role="tabpanel" aria-labelledby="list-misc-list">
                             <ul>
+                                <li>Cyberduck FTP</li>
                                 <li>Dropbox</li>
-                                <li>Filezilla</li>
+                                <li>Filezilla FTP</li>
                                 <li>Google Docs</li>
                                 <li>Google Drive</li>
                                 <li>Island Pacific &amp; IP Direct</li>
-                                <li>Microsoft Teams</li>
-                                <li>Microsoft One Drive</li>
+                                <li>Microsoft One Drive</li>    
+                                <li>Microsoft Teams</li>  
                                 <li>Office 365</li>
                                 <li>Rackspace CDN</li>
-                                <li>Sage Pay</li>
-                                <li>Teamwork</li>
+                                <li>Sage Pay</li> 
+                                <li>Teamwork</li> 
                             </ul>
                         </div>
                         <div class="tab-pane fade" id="list-learning" role="tabpanel" aria-labelledby="list-learning-list">
                             <ul>
-                                <li>Udemy</li>
                                 <li>Codecademy</li>
                                 <li>Stack Overflow</li>
+                                <li>Udemy</li>
                                 <li>Web Developer</li>
                             </ul>
                         </div>
@@ -312,21 +335,12 @@ define ('SITE_KEY', '');
 
         <footer>
             <p>Check out my <span class="linked-in first-in">Linked</span><span class="linked-in second-in">in</span> profile @ <a href="http://uk.linkedin.com/in/ghatzi" title="View my Linkedin profile" target="_blank">uk.linkedin.com/in/ghatzi</a></p>
-            <p>View me on <a href="https://www.instagram.com/ghatzijiujitsu/" title="View me on Instagram" target="_blank">Instagram</a></p>
+            <p>View me on <a href="https://www.instagram.com/ghatzi_life/" title="View me on Instagram" target="_blank">Instagram</a></p>
             <p>Source code available on <a href="https://github.com/Ghatzi/george-hatzi.co.uk" title="Source code available on GitHub" target="_blank">GitHub</a></p>
             <p>&copy;george-hatzi.co.uk - <?php echo date("Y") ?> - All rights reserved</p>
         </footer>
 
     </div>
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript" src="scripts/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery-eu-cookie-law-popup.js"></script>
-    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 
     <script>
         $('[data-fancybox="cl-group"]').fancybox({
