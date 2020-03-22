@@ -43,7 +43,7 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
                         <a class="nav-link active" title="Intro" href="#sectionone">Intro</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" title="Tools" href="#sectiontwo">Tools</a>
+                        <a class="nav-link" title="Tools" href="#sectiontwo">My tools</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" title="Work examples" href="#sectionthree">Work examples</a>
@@ -58,9 +58,18 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
             <div class="clearfix"></div>
 
             <div id="intro">
-                <p>$( "#<span>frontEndDeveloper</span>" ).click(function() {</p>
-                <p class="indent-text"><span>alert</span> ( "Hello, I'm <span>George Hatzi</span>" );</p>
-                <p>});</p>
+
+                <div id="introLeft">
+                    <p>$( "#<span>frontEndDeveloper</span>" ).click(function() {</p>
+                    <p class="indent-text"><span>alert</span> ( "Hello, I'm <span>George Hatzi</span>" );</p>
+                    <p>});</p>
+                </div>
+
+                <div id="introRight">
+                    <p>const portfolio = "<span>This is my Portfolio</span>";</p>
+                    <p>console.log(<span>portfolio</span>);</p>
+                </div>
+                
             </div>
 
         </header>
@@ -89,17 +98,18 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
                     <li>XML</li>
                     <li>CSS3</li>
                     <li>XSLT</li>
-                    <li>JavaScript</li>
+                    <li>SASS</li>
                     <li>JSON</li>
-                    <li>jQuery</li>
+                    <li>JavaScript</li>
                     <li>Ajax</li>
-                    <li>Bootstrap</li>
+                    <li>jQuery</li>
                     <li>WordPress</li>
-                    <li>HTML5</li>
+                    <li>Bootstrap</li>
                     <li>mySQL</li>
+                    <li>HTML5</li>
                     <li>Emmet</li>
-                    <li>Symfony Framework</li>
                     <li>PHP</li>
+                    <li>Symfony Framework</li>    
                 </ul>
             </div>
             <a href="#sectiontwo"><span class="arrows down"></span></a>
@@ -109,7 +119,7 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
 
         <div id="sectiontwo">
 
-            <h3>Tools.</h3>
+            <h3>My tools.</h3>
 
             <div class="row">
                 <div class="col-4">
@@ -132,9 +142,11 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
                                 <li>Adobe Dreamweaver</li>
                                 <li>Android Studio</li>
                                 <li>Brackets</li>
+                                <li>CodePen</li>
                                 <li>GitHub</li>
                                 <li>Git Bash</li>                  
-                                <li>Notepad(++)</li>              
+                                <li>Notepad(++)</li>
+                                <li>Koala</li>             
                                 <li>phpMyAdmin</li>
                                 <li>PHP Storm</li>
                                 <li>Visual Studio Code</li>
@@ -199,9 +211,11 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
                         <div class="tab-pane fade" id="list-learning" role="tabpanel" aria-labelledby="list-learning-list">
                             <ul>
                                 <li>Codecademy</li>
+                                <li>MDN</li>
                                 <li>Stack Overflow</li>
                                 <li>Udemy</li>
                                 <li>Web Developer</li>
+                                <li>W3schools</li>
                             </ul>
                         </div>
                     </div>
@@ -311,10 +325,9 @@ define ('SITE_KEY', '6Lfeg6gUAAAAAHxMY1v4MYeT7dzZaXFI2esPRxyr');
             </form>
             <script>
                 grecaptcha.ready(function() {
-                grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
-                    //console.log(token);
-                    document.getElementById('g-recaptcha-response').value=token;
-                });
+                    grecaptcha.execute('<?php echo SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {
+                        document.getElementById('g-recaptcha-response').value=token;
+                    });
                 });
             </script>
 

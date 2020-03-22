@@ -5,10 +5,12 @@
 *::before {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: inherit;
     box-sizing: inherit;
 }
 
 body {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
     font-family: 'Raleway', sans-serif;
@@ -41,17 +43,26 @@ footer p {
 
 #intro {
     font-size: 2rem;
+    display: flex;
 }
 
 #intro p {
     margin: 0;
 }
 
+#introLeft {
+    flex: auto;
+}
+
 /* Classes */
 .navbar {
     border-radius: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     transition: all .2s;
+}
+
+.navbar-nav li {
+    margin-left: 1rem;
 }
 
 .nav-link:hover {
@@ -75,7 +86,7 @@ footer p {
 }
 
 .skills-background li:nth-child(even) {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .container {
@@ -155,7 +166,6 @@ span.second-in {
 }
 
 .tab-content li {
-    font-size: 1.3rem;
     margin-left: .5rem;
 }
 
@@ -245,11 +255,11 @@ span.up-margin{
 @media only screen and (max-device-width: 480px) {
 
     #wrapper {
-        padding: 1.5rem;
+        padding: 1rem;
     }
 
-    .tab-content li {
-        margin-left: 2rem;
+    #intro {
+        display: block;
     }
 
 }
