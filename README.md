@@ -1,2 +1,2 @@
-# george hatzi repository
+# Ghatzi repository
 This is my portfolio repository
