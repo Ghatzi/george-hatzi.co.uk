@@ -17,15 +17,6 @@ define ('SITE_KEY', '');
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="styles/master.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="styles/jquery-eu-cookie-law-popup.css" />
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141915782-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-141915782-1');
-    </script>
 </head>
 <body class="eupopup eupopup-top">
 
