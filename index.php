@@ -5,7 +5,6 @@ define ('SITE_KEY', '');
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="msvalidate.01" content="21B0F9E924F67DB9499380A3B35777F6" />
     <meta name="keywords" content="george hatzi, london, front-end developer, web developer, html, xml, html5, css, css3, jquery, javascript, php, bootstrap, wordpress, web design, responsive design" />
     <meta name="description" content="george hatzi is a front-end web developer from London. He develops responsive sites using clean and efficient code" />
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover'>
